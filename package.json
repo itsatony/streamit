@@ -1,6 +1,6 @@
 {
-  "name": "chunkedstream",
-  "description": "chunkedStream is a readable stream (node 0.10+) variant taking Buffer or Stream inputs",
+  "name": "streamit",
+  "description": "streamIt a readable stream (node 0.10+) variant taking Buffer or Stream inputs",
   "version": "0.1.0",
 	"author": "Toni Wagner <i@itsatony.com>",
 	"engine": "node >= 0.10",
