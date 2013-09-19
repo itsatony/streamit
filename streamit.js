@@ -45,7 +45,7 @@ function streamit(input, encoding, hwm) {
 	this._start();
 };
 
-streamit.prototype.version = '0.1.0';
+streamit.prototype.version = '0.1.1';
 
 streamit.prototype._start = function() {
 	var self = this;

@@ -56,7 +56,7 @@ a typical use case would be piping of a in-memory buffer to a http.res:
 
 
 # VERSION
-v 0.1.0
+v 0.1.1
 
 # author
 
