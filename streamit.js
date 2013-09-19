@@ -30,7 +30,7 @@ streamit.prototype = Object.create(stream.Readable.prototype, { constructor: { v
 
 function streamit(input, encoding, hwm) {
 	this.highWaterMark = (typeof hwm === 'number') ? hwm : 16384; // 16kb - is default
-	this.encoding = (typeof encoding === 'string' &&  Buffer.isEncoding(string) === true) ? encoding : 'utf8';
+	this.encoding = (typeof encoding === 'string' &&  Buffer.isEncoding(encoding) === true) ? encoding : 'utf8';
 	this.type = 'buffer';
 	if (typeof input === 'undefined') input = new Buffer('');
 	else if (typeof input === 'string') input = new Buffer(input);
