@@ -1,3 +1,5 @@
+[![build status](https://secure.travis-ci.org/itsatony/streamit.png)](http://travis-ci.org/itsatony/streamit)
+
 # streamit
 
 streamIt is a variant of nodejs stream2 readable class ( http://nodejs.org/api/stream.html ; http://nodejs.org/api/stream.html#stream_class_stream_readable )
